@@ -1,0 +1,75 @@
+﻿@page
+@model CheckoutModel
+@{
+    ViewData["Title"] = "Home page";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Geidea Checkout Example</title>
+    <script src="https://www.merchant.geidea.net/hpp/geideaCheckout.min.js"></script>
+</head>
+<body>
+    <h1>Checkout Page</h1>
+    
+    <!-- Add a button or link to trigger the payment -->
+    <button id="checkoutButton">Proceed to Payment</button>
+
+    <script>
+        // Define the onSuccess function
+        let onSuccess = function (data) {
+            // Handle a successful payment here
+            alert("Payment Successful!");
+            // You can also access data properties like data.responseCode, data.responseMessage, etc.
+        };
+
+        // Define the onError function
+        let onError = function (data) {
+            // Handle payment errors here
+            alert("Payment Error: " + data.responseMessage);
+        };
+
+        // Define the onCancel function
+        let onCancel = function (data) {
+            // Handle payment cancellation here
+            alert("Payment marco Cancelled: " + data.responseMessage);
+        };
+
+        document.getElementById("checkoutButton").addEventListener("click", function () {
+            // Send a request to your server to create a Geidea Checkout session
+            fetch("?handler=createSession", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+            })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error("Network response was not ok");
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    if (data && data.session && data.session.id) {
+                        // Initialize the payment object
+                        const payment = new GeideaCheckout(onSuccess, onError, onCancel);
+
+                        // Start the payment using the received session ID
+                        payment.startPayment(data.session.id);
+                    } else {
+                        console.error("Error: Invalid or empty response from Geidea Checkout.");
+                    }
+                })
+                .catch(error => {
+                    console.error("An error occurred:", error);
+                });
+        });
+
+
+
+    </script>
+
+</body>
+</html>
+

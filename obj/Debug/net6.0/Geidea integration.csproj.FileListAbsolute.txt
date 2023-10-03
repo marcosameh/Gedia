@@ -1,0 +1,33 @@
+D:\Clients\Geidea integration\bin\Debug\net6.0\appsettings.Development.json
+D:\Clients\Geidea integration\bin\Debug\net6.0\appsettings.json
+D:\Clients\Geidea integration\bin\Debug\net6.0\Geidea integration.staticwebassets.runtime.json
+D:\Clients\Geidea integration\bin\Debug\net6.0\Geidea integration.exe
+D:\Clients\Geidea integration\bin\Debug\net6.0\Geidea integration.deps.json
+D:\Clients\Geidea integration\bin\Debug\net6.0\Geidea integration.runtimeconfig.json
+D:\Clients\Geidea integration\bin\Debug\net6.0\Geidea integration.dll
+D:\Clients\Geidea integration\bin\Debug\net6.0\Geidea integration.pdb
+D:\Clients\Geidea integration\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Clients\Geidea integration\obj\Debug\net6.0\Geidea integration.csproj.AssemblyReference.cache
+D:\Clients\Geidea integration\obj\Debug\net6.0\Geidea integration.GeneratedMSBuildEditorConfig.editorconfig
+D:\Clients\Geidea integration\obj\Debug\net6.0\Geidea integration.AssemblyInfoInputs.cache
+D:\Clients\Geidea integration\obj\Debug\net6.0\Geidea integration.AssemblyInfo.cs
+D:\Clients\Geidea integration\obj\Debug\net6.0\Geidea integration.csproj.CoreCompileInputs.cache
+D:\Clients\Geidea integration\obj\Debug\net6.0\Geidea integration.MvcApplicationPartsAssemblyInfo.cache
+D:\Clients\Geidea integration\obj\Debug\net6.0\Geidea integration.RazorAssemblyInfo.cache
+D:\Clients\Geidea integration\obj\Debug\net6.0\Geidea integration.RazorAssemblyInfo.cs
+D:\Clients\Geidea integration\obj\Debug\net6.0\staticwebassets\msbuild.Geidea integration.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Clients\Geidea integration\obj\Debug\net6.0\staticwebassets\msbuild.build.Geidea integration.props
+D:\Clients\Geidea integration\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Geidea integration.props
+D:\Clients\Geidea integration\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Geidea integration.props
+D:\Clients\Geidea integration\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Clients\Geidea integration\obj\Debug\net6.0\staticwebassets.build.json
+D:\Clients\Geidea integration\obj\Debug\net6.0\staticwebassets.development.json
+D:\Clients\Geidea integration\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\Clients\Geidea integration\obj\Debug\net6.0\scopedcss\bundle\Geidea integration.styles.css
+D:\Clients\Geidea integration\obj\Debug\net6.0\scopedcss\projectbundle\Geidea integration.bundle.scp.css
+D:\Clients\Geidea integration\obj\Debug\net6.0\Geidea integration.csproj.CopyComplete
+D:\Clients\Geidea integration\obj\Debug\net6.0\Geidea integration.dll
+D:\Clients\Geidea integration\obj\Debug\net6.0\refint\Geidea integration.dll
+D:\Clients\Geidea integration\obj\Debug\net6.0\Geidea integration.pdb
+D:\Clients\Geidea integration\obj\Debug\net6.0\Geidea integration.genruntimeconfig.cache
+D:\Clients\Geidea integration\obj\Debug\net6.0\ref\Geidea integration.dll
